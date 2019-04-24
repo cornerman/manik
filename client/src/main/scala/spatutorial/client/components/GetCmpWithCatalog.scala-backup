@@ -1,0 +1,59 @@
+package spatutorial.client.components
+
+import japgolly.scalajs.react.Callback
+import spatutorial.client.services.SPACircuit
+import spatutorial.shared._
+
+//import spatutorial.client.components.cmpCatalogs
+import bootstrap.scalajsreact.cmpCatalogs
+
+object GetCmpWithCatalog {
+
+  def compon( typ: Father, txtSearch: String = "", field: String = "",
+              stateChange: (String, String) => Callback,
+              editItem: (String, String) => Callback,
+              deleteItem: (String, String) => Callback) = {
+
+
+    val cat = typ match {
+      case i: Presentacion => SPACircuit.zoom(_.catPresentacion).value.get
+      case i: Partida => SPACircuit.zoom(_.catPartidas).value.get
+      case i: Programa => SPACircuit.zoom(_.catProgramas).value.get
+      case i: Fuente => SPACircuit.zoom(_.catFuentes).value.get
+      case i: Articulo =>
+        val art = SPACircuit.zoom(_.catArticulos).value
+        art match {
+          case x if x.isEmpty => Seq(Articulo())
+          case _ => art.get
+        }
+    }
+
+    val catFiltered = if(field == "id") //va ha buscar en el identificador o la descripción     //if (typ == Articulo() && kv.take(5) == "txtID")
+                        cat.filter(f => f.id.take(txtSearch.length) == txtSearch).sortBy(_.id)
+                      else {
+                        val cSearchInCatalogs: CSearchInCatalogs = new CSearchInCatalogs()
+
+                        val filtered =  if(field == "descripcion" && txtSearch.length > 10)
+                                          cSearchInCatalogs.findInCatalog(txtSearch, cat)
+                                        else if(txtSearch.length > 1)
+                                          cSearchInCatalogs.findInCatalog(txtSearch, cat)
+                                        else
+                                          Left("minimo de caracteres: 10")
+
+                        filtered match {
+                          case Left(err) =>
+                            Seq.empty[Father]
+                          case
+                            Right(lst) => lst
+                        }
+
+                      }
+
+    val mapCatalogos = Map( catFiltered map { a => a.id -> a.descripcion.getOrElse("") }: _*)
+
+
+    cmpCatalogs(mapCatalogos, stateChange, editItem, deleteItem)
+
+  }
+
+}

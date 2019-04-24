@@ -1,0 +1,59 @@
+package postg
+
+import spatutorial.shared.{IdRequisicion, Requisicion, ViewRenglonRequisicion}
+import scala.concurrent.Future
+import play.api.mvc.Results.InternalServerError
+import scala.concurrent.ExecutionContext
+import scala.util.{Failure, Success}
+//import play.api.db.slick.DatabaseConfigProvider
+//import play.api.db.slick.HasDatabaseConfigProvider
+//import play.db.NamedDatabase
+//import javax.inject.Inject
+
+import org.postgresql.util.{PSQLException}
+import services.JsonEitherSpec.Data._
+
+class CViewRenglonRequisicion extends CMyDataBase {
+	import jdbcProfile.api._
+	private val query = TableQuery[tabla]
+
+	private class tabla(tag: Tag) extends Table[ViewRenglonRequisicion](tag,Some("requerimientos"), "qry_detalles") {
+		def cve_oficina	= column[String]("cve_oficina")
+		def folio = column[Int]("folio")
+		def ejercicio= column[Int]("ejercicio")
+		def renglon= column[Int]("renglon")
+		def clave= column[String]("cve_articulo")
+		def descripcion= column[String]("descripcion_articulo")
+		def cantidad = column[Option[Int]]("cantidad")
+		def precio = column[Double]("precio")
+
+		def * = (cve_oficina, folio, ejercicio, renglon, clave, descripcion, cantidad, precio) <> (ViewRenglonRequisicion.tupled, ViewRenglonRequisicion.unapply)
+	}
+
+	def getRequisicion(id: IdRequisicion)(implicit ec: ExecutionContext): Future[Requisicion] = {
+		val requisicion = query filter(r => r.ejercicio === id.ejercicio && r.folio === id.folio && r.cve_oficina === id.cve_oficina)
+		db.run(requisicion.result).map { res => Requisicion(items = res) }
+	}
+
+	def ById( id: IdRequisicion, renglon: Int )(implicit ec: ExecutionContext): Future[Either[String, ViewRenglonRequisicion]] = {
+		db.run ( query.filter { r => r.cve_oficina === id.cve_oficina && r.folio === id.folio && r.ejercicio === id.ejercicio && r.renglon === renglon }
+			.result.asTry ).map {
+				case Success(value) =>
+					if (value.nonEmpty) Right(value.head)
+					else Left("Hubo un error")
+				case Failure( e: PSQLException ) if e.getSQLState == "23505" =>
+					InternalServerError( "Some sort of unique key violation.." )
+					Left("La clave ya existe")
+				case Failure(e: PSQLException) =>
+					InternalServerError( "Some sort of psql error.." )
+					Left("Some sort of psql error...")
+				case Failure(_) =>
+					InternalServerError( "Something else happened.. it was bad.." )
+					Left("Quien sabe que paso...")
+				case _ =>
+					InternalServerError( "Quien sabe que paso ******************************************" )
+					Left("Quien sabe que paso...")
+		}
+	}
+
+}

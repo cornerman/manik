@@ -1,0 +1,55 @@
+package actorschat
+
+import actorschat.ChatRoomActor2.Init
+import actorschat.Room.{Join, Joined, Msg}
+import akka.actor.{Actor, ActorRef, PoisonPill, Props}
+import akka.actor._
+import scala.collection.mutable.ListBuffer
+
+object ChatRoomActor2 {
+  case object Init
+  def props(out: ActorRef) = Props(new ChatRoomActor2(out))
+}
+
+class ChatRoomActor2(out: ActorRef) extends Actor {
+
+  //you can pass precreated room in constructor or receive it from message, based on your logic
+  val room: ActorRef = ??? //actorSystem.actorOf(Props(classOf[Room], roomId))
+  //private[this] val chatRoomActor = actorSystem.actorOf(Props(classOf[ChatRoomActor], roomId))
+
+  //when actor starts, it register self in room, we send Init
+  //message, because actors communications should be in `receive`
+  override def preStart(): Unit = {
+    self ! Init
+  }
+
+  def waitingToJoin: Receive = {	//initial state, waiting joining in room
+    case Init => room ! Join(self)
+    case Joined => context become joined
+  }
+
+  def joined: Receive = {		//joined state, process messages from out and room
+    case textFromOut: String => room ! Msg(textFromOut)
+    case msg: Msg => out ! msg.toString
+  }
+
+  override def receive: Receive = waitingToJoin		//initial state
+}
+
+object Room {
+  case class Join(user: ActorRef)		//request to join
+  case class Joined(room: ActorRef)		//join response
+  case class Msg(text: String)
+}
+
+class Room extends Actor {
+  val users: ListBuffer[ActorRef] = ListBuffer()		//users in room
+  override def receive: Receive = {
+    case msg: Msg =>		users.foreach(u => u ! msg) //send messages to all users
+    case Join(user) =>	    	//join request
+      context watch user
+      users += user
+      user ! Joined(self)
+    case Terminated(user) =>  users -= user
+  }
+}

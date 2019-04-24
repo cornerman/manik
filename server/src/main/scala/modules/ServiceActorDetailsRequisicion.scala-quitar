@@ -1,0 +1,23 @@
+package modules
+
+import akka.actor.{Actor, ActorRef, PoisonPill, Props}
+import scala.concurrent.ExecutionContext
+import postg.{CViewRenglonRequisicion}
+
+object ServiceActorDetailsRequisicion {
+  def props(out: ActorRef) = Props(new ServiceActorDetailsRequisicion(out))
+}
+
+class ServiceActorDetailsRequisicion(out: ActorRef) extends Actor {
+  println("Dentro del contructor del actor  ********************************************")
+
+  def receive = {
+    case msg =>
+      println("En el actor con el CRUDDetailsRequisicion")
+    case _ => println("Changos no se que esta pasando")
+  }
+
+  override def postStop() {
+    println("Closing the websocket connection changos quien sabe por que!!!!!!!!!!")
+  }
+}

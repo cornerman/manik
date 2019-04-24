@@ -1,0 +1,27 @@
+package modules
+
+import akka.actor.{Actor, ActorRef, PoisonPill, Props}
+import spatutorial.shared.{IdRequisicion, RenglonRequisicion, Requisicion}
+
+import scala.concurrent.{Await, ExecutionContext}
+import scala.concurrent.duration._
+import postg.{CDatosGralesRequisicion, CRenglonRequisicion, CViewRenglonRequisicion}
+
+object ChatServiceActor {
+  def props(out: ActorRef) = Props( new ChatServiceActor( out ) )
+}
+
+class ChatServiceActor (out: ActorRef) extends Actor {
+
+  implicit val ec: ExecutionContext = scala.concurrent.ExecutionContext.Implicits.global
+
+  def receive = {
+    case msg =>
+      println(msg)
+  }
+
+  override def postStop() {
+    println( "Closing the websocket connection changos quien sabe por que!!!!!!!!!!" )
+  }
+
+}

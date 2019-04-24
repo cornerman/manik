@@ -1,0 +1,90 @@
+package spatutorial.client.components
+
+import akka.actor._
+import akka.actor
+import diode.ModelRO
+import diode.data.Pot
+import japgolly.scalajs.react.Callback
+import japgolly.scalajs.react.vdom.html_<^.{<, VdomArray, ^}
+import japgolly.scalajs.react._
+import org.scalajs.dom
+import vdom.html_<^._
+import scalacss.ScalaCssReact._
+import spatutorial.shared.{Father, Fuente, Programa}
+
+import probar.{GlobalStyles, MyStyles}
+import probar.Bootstrap.{Button, Text}
+
+trait FSMForm {
+
+  type ItemType <: Father
+
+  trait StateCmp {
+    val msg: String
+    val item: Father
+  }
+
+  sealed trait FSMState
+  case object FSMInit extends FSMState
+  case object FSMFound extends FSMState
+  case object FSMDeleted extends FSMState
+  case object FSMDeleting extends FSMState
+  case object FSMSaving extends FSMState
+  case object FSMSeekingProgram extends FSMState
+  case object FSMSeeking extends FSMState
+  case object FSMEditing extends FSMState
+  case object Changing extends FSMState
+
+  case object FSMNew extends FSMState
+
+  ///**************************************************************
+  //Los mensages a la Finite State Machine always sould be in upper case at the start.
+  //***************************************************************
+
+  case class MSGDelete(id: String)
+  //case object MSGDelete
+  
+  case object MSGDeleted
+  case object MSGSaved
+  case object MsgSentMsg
+  case object MsgInit
+  case class MSGFound(item: Father)
+  case object MSGEdit
+  case class MSGSave(item: Father)
+  case class MSGEditIdComparativo(txt: String)
+  case class MSGSeekingProgram(txt: String)
+  case object MSGSeeking
+  case class MSGSeek(id: String)
+
+  case object EditingData
+
+  case class SelectPrograma(item: Father)
+  case object MSGNew
+  case object Stop
+
+  val system = ActorSystem.create("ActorSystemFSM")
+
+  ///*********** Section for diode
+  protected var unsubscribeMainItem = Option.empty[() => Unit]
+  /*def updateLstCat[C <: Father](cat: ModelRO[Pot[Seq[C]]])(replace: (ReactState, Seq[C]) => ReactState)(default: C) = {
+			val catalog: Seq[C] = cat.value match {
+				case x if x.isUnavailable => Seq(default)
+				case x if x.isEmpty => Seq(default)
+				case x if x.isFailed => Seq(default)
+				case _ => cat.value.get
+			}
+			$.modState(s => replace(s, catalog)).runNow()
+		}*/
+  //****************************************************
+
+
+  @inline private def bss = GlobalStyles.bootstrapStyles
+
+  def menuCRUD(msg: String, onSave:Callback, onDelete: Callback, onNew: Callback) =
+    <.div(MyStyles.bootstrapDiv2, ^.clear:="both",
+      Button(Button.Props( onSave, addStyles = Seq(bss.buttonXS)), "Guardar" ),
+      if (msg == "Encontrado" || msg == "Guardado") Button(Button.Props(onDelete , addStyles = Seq(bss.buttonXS)), "Borrar")
+      else VdomArray.empty,
+      Button(Button.Props(onNew, addStyles = Seq( bss.buttonXS)), "Nuevo")
+    )
+}

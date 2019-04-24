@@ -1,0 +1,22 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+#GET     /start                          controllers.Application.index #esto era antes de poner de poner el componente de logear
+#GET     /                               controllers.Application.logear  #esto era antes de poner de poner el componente de logear
+POST    /validate                      controllers.Application.validate
+GET    /                              controllers.Application.index
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/fonts/*file               controllers.Assets.at(path="/public/lib/font-awesome/fonts", file)
+GET     /assets/*file                     controllers.Assets.versioned(path="/public", file: Asset)
+
+# Autowire calls
+POST    /api/*path                        controllers.Application.autowireApi(path: String)
+
+# Logging
+POST /logging                             controllers.Application.logging
+
+#WebSocket
+GET /ws           controllers.ApplicationWS.socketMain

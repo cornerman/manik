@@ -1,0 +1,124 @@
+@import "lib/font-awesome/less/font-awesome.less";
+
+label, input, button, table {
+  font-size: x-small;
+}
+
+.probar {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+tr:hover {
+  background-color: #ffa;
+}
+
+.comments{
+    overflow: auto;
+    height: 150px;
+    width:  500px;
+    border: 1px solid;
+    fontSize: 8px;
+}
+
+.hiperlink {
+    text-decoration: underline;
+    color:           blue;
+    cursor: pointer
+}
+
+.zoom {
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .2s; /* Animation */
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.zoom:active {
+    /* (1300% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: translate(100px, 0px) scale(20);
+}
+
+#mainMenu {
+    font-size: small;
+}
+
+#mainMenu:hover {
+    //border-top: 4px solid #ffffff;
+    //border-bottom: 4px solid #ffffff;
+    //padding: 6px 0;
+}
+
+input:active, input:hover, input:focus, button:hover, button:focus {
+  background-color: #d4d6d6;
+  color: #dc2f51;
+}
+
+thead {
+    background-color: #d4d6d6;
+    text-align: center;
+    font-weight: bold
+}
+
+td:active, td:hover, td:focus {
+  background-color: #d4d6d6;
+  color: #dc2f51;
+}
+
+table, th, td {
+    padding: 0px;
+    margin: 0px;
+    //cellpadding: 0px;
+    border-collapse: collapse; //para que no se vean separados los bordes en las celdas y pareca que doble borde.
+    border: 1px solid black;
+}
+
+#control {
+    //clear: both;
+    background-color: #e7bbc4;
+    /*height: 52px;
+    width: 968px;*/
+}
+
+#groupControls {
+    clear: both;
+    padding-left: 20px;
+    //background-color: #e7bbc4;
+    //height: 52px;
+    width: 400px;
+    border-radius:5px;
+}
+
+#actionsMenu {
+    clear: both;
+    background-color: #e7bbc4;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#pageForm {
+    clear:              both;
+    padding-left:       30px;
+    padding-top:        20px;
+    width:              500px;
+    background-color:   #e7bbc4;
+    border-radius:      5px;
+}
+
+#gridSearchResultCatalog {
+    left: 10px;
+    position: absolute;
+    zIndex: 1000;
+    background-color: #f99d89;
+    border: 1px solid;
+    width: 500px;
+    font-size: x-small;
+
+}

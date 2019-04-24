@@ -1,0 +1,434 @@
+[0m[[0m[0minfo[0m] [0m[0mLoading settings from idea.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading global plugins from /home/elyphas/.sbt/1.0/plugins[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/elyphas/Projs/requisicion/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to requisicion (in build file:/home/elyphas/Projs/requisicion/)[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to server (in build file:/home/elyphas/Projs/requisicion/)[0m
+
+[35m--- (Running the application, auto-reloading is enabled) ---[0m
+
+[[37minfo[0m] p.c.s.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+[32m(Server started, use Enter to stop and go back to the console...)[0m
+
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/elyphas/Projs/requisicion/client/target/scala-2.12/scalajs-bundler/main/client-fastopt.js[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillUnmount.raw()japgolly.scalajs.react.raw.package$ReactComponent[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount.<init>(japgolly.scalajs.react.raw.package$ReactComponent)[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$1.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$2.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$1.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$2.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$1.isMounted()java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$2.isMounted()java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$1.isMounted()java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$2.isMounted()java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$1.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$4(diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.updateState$1(scala.Boolean,diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$5(diode.ModelRO,scala.Boolean)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$2.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$4(diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.updateState$1(scala.Boolean,diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$5(diode.ModelRO,scala.Boolean)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Js$$anon$1.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$4(diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.updateState$1(scala.Boolean,diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$5(diode.ModelRO,scala.Boolean)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.Scala$$anon$2.setState$default$2()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$4(diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.updateState$1(scala.Boolean,diode.ModelRO)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$changeHandler$5(diode.ModelRO,scala.Boolean)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.changeHandler(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$2(diode.ModelRO)scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.$$anonfun$willMount$1()scala.Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector$Backend$1.willMount()scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$4(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  diode.react.ReactConnector$Backend$1[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$RenderScope$.props$extension(japgolly.scalajs.react.raw.package$ReactComponent)java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$3(japgolly.scalajs.react.raw.package$ReactComponent)japgolly.scalajs.react.vdom.VdomElement[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$3(japgolly.scalajs.react.raw.package$ReactComponent)japgolly.scalajs.react.vdom.VdomElement[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$RenderScope.<init>(japgolly.scalajs.react.raw.package$ReactComponent)[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$3(japgolly.scalajs.react.raw.package$ReactComponent)japgolly.scalajs.react.vdom.VdomElement[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$3(japgolly.scalajs.react.raw.package$ReactComponent)japgolly.scalajs.react.vdom.VdomElement[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillUnmount.<init>(japgolly.scalajs.react.raw.package$ReactComponent)[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.$$anonfun$connect$5(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.$$anonfun$connect$5(japgolly.scalajs.react.raw.package$ReactComponent)scala.Function0[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$RenderScope.raw()japgolly.scalajs.react.raw.package$ReactComponent[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount.raw()japgolly.scalajs.react.raw.package$ReactComponent[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(diode.ModelRO,scala.scalajs.js.UndefOr)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from diode.react.ReactConnector.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.services.SPACircuit$.connect(scala.Function1,diode.FastEq)japgolly.scalajs.react.CtorType$Props[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.modules.frmDatosGrales.compon(scala.collection.Seq,scala.collection.Seq)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$12(japgolly.scalajs.react.extra.router.RouterCtl)japgolly.scalajs.react.component.Generic$UnmountedWithRoot[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$11(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.Renderer[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.$$anonfun$routerConfig$1(japgolly.scalajs.react.extra.router.RouterConfigDsl)japgolly.scalajs.react.extra.router.RouterConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  called from spatutorial.client.SPAMain$.<init>()[0m
+[0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
+[0m[[0m[31merror[0m] [0m[0minvolving instantiated classes:[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.services.SPACircuit$[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.modules.frmDatosGrales[0m
+[0m[[0m[31merror[0m] [0m[0m  spatutorial.client.SPAMain$[0m
+[0m[[0m[31merror[0m] [0m[0morg.scalajs.core.tools.linker.LinkingException: There were linking errors[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:160)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.frontend.LinkerFrontend.$anonfun$link$3(LinkerFrontend.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.logging.Logger.time(Logger.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.logging.Logger.time$(Logger.scala:26)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.sbtplugin.Loggers$SbtLoggerWrapper.time(Loggers.scala:7)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.frontend.LinkerFrontend.link(LinkerFrontend.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.Linker.$anonfun$link$1(Linker.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.Linker.guard(Linker.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.Linker.link(Linker.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.ClearableLinker.$anonfun$link$1(ClearableLinker.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.ClearableLinker.$anonfun$link$1$adapted(ClearableLinker.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.ClearableLinker.linkerOp(ClearableLinker.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.core.tools.linker.ClearableLinker.link(ClearableLinker.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.sbtplugin.ScalaJSPluginInternal$.$anonfun$scalaJSStageSettings$11(ScalaJSPluginInternal.scala:313)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$1(FileFunction.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$4(FileFunction.scala:147)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:313)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$3(FileFunction.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:313)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:288)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$2(FileFunction.scala:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalajs.sbtplugin.ScalaJSPluginInternal$.$anonfun$scalaJSStageSettings$10(ScalaJSPluginInternal.scala:318)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:66)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:271)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m(client / Compile / [31mfastOptJS[0m) org.scalajs.core.tools.linker.LinkingException: There were linking errors[0m
+[INFO] [07/07/2018 18:58:00.644] [Thread-2] [CoordinatedShutdown(akka://sbt-web)] Starting coordinated shutdown from JVM shutdown hook

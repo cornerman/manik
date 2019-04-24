@@ -1,0 +1,27 @@
+package controllers
+
+import com.google.inject.Inject
+import play.api.{Configuration, Environment}
+import play.api.mvc._
+import akka.stream.ActorMaterializer
+import akka.actor.ActorSystem
+import modules._
+import boopickle.Default._
+import akka.stream.scaladsl.Flow
+import scala.util.{Failure, Success}
+import akka.util.ByteString
+import play.api.http.websocket.{BinaryMessage, CloseCodes, CloseMessage, Message}
+import play.api.libs.streams.{ActorFlow, AkkaStreams}
+import play.api.mvc.WebSocket.MessageFlowTransformer
+
+class AppDetailsRequisicionWS @Inject() ( implicit val config: Configuration, val env: Environment,
+                                implicit val system: ActorSystem, materializer: ActorMaterializer) {
+
+  def socket = WebSocket.accept[String, String]{ request =>
+      ActorFlow.actorRef { out =>
+        println("Creando el Actor mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm")
+        ServiceActorDetailsRequisicion.props(out)
+      }
+  }
+
+}
