@@ -67,7 +67,7 @@ object Settings {
       "com.lihaoyi" %%% "utest" % versions.uTest % Test,
       "org.akka-js" %%% "akkajsactor" % "1.2.5.19",
       "com.lihaoyi" %%% "scalatags" % "0.6.7",
-      "com.github.outwatch" %%% "outwatch" % "c3299c46",//"com.github.outwatch" % "outwatch" % "master-SNAPSHOT",
+      "com.github.cornerman" % "outwatch" % "bb2dbc58",//"com.github.outwatch" % "outwatch" % "master-SNAPSHOT",
       "com.clovellytech" %%% "outwatch-router" % "0.0.6",
       "org.webjars.npm" % "base64-js" % "1.3.0",
       "com.github.cornerman.mycelium" %%% "mycelium" % "44906c6"

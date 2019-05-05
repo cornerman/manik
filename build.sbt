@@ -28,7 +28,7 @@ lazy val client: Project = (project in file("client"))
         "jitpack" at "https://jitpack.io"/*,
         Resolver.bintrayRepo ( "freshwood", "maven" )*/
     ),
-    //useYarn := true,
+    useYarn := true,
     version := Settings.version,
     scalaVersion := Settings.versions.scala,
     scalacOptions ++= Settings.scalacOptions,
